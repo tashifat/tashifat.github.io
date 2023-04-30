@@ -85,10 +85,10 @@ author:
   bio              : "PhD Candidate, School of EECS, Oregon State University"
   location         : "Corvallis, OR"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=U8m7XkcAAAAJ&hl=en"
   email            : "shifatt@oregonstate.edu"
-  researchgate     :  # example: "https://www.researchgate.net/profile/Tanvir-Alam-Shifat"
+  researchgate     : "https://www.researchgate.net/profile/Tanvir-Alam-Shifat"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : #"academicpages"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "https://www.linkedin.com/in/tashifat/"
+  orcid            : "https://orcid.org/0000-0002-1206-4306"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : #"replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
