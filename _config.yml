@@ -87,7 +87,7 @@ author:
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=U8m7XkcAAAAJ&hl=en"
-  email            : "shifatt@oregonstate.edu"
+  email            : #"shifatt@oregonstate.edu"
   researchgate     : "https://www.researchgate.net/profile/Tanvir-Alam-Shifat"
   uri              :
   bitbucket        :
