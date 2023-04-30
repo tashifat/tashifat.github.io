@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year Ph.D. student at the Department of Electrical and Computer Engineering at the Oregon State University, Corvallis, Oregon. 
+I am a second-year Ph.D. student at the [School of EECS, Oregon State University](https://eecs.oregonstate.edu/) at the Oregon State University, Corvallis, Oregon. 
 
 Currently, I am working at the Wallace Energy Systems & Renewables Facility under the supervision of Dr. Ted Brekken. My research work is focused on the control and modeling of power electronics components with an emphasis on renewable energy technologies.
 
