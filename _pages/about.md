@@ -27,9 +27,10 @@ Technical Skills
 Society Affiliation
 ===================
 
-![image](https://user-images.githubusercontent.com/116129150/236618309-78085d70-f1dc-431c-8e9d-23726abd63c8.png)
-![image](https://user-images.githubusercontent.com/116129150/236618326-ae8e6557-3246-4f24-b7aa-9885077d7e00.png)
-![image](https://user-images.githubusercontent.com/116129150/236618361-7d065ef1-9d04-40bf-81d6-1e8fdb8f5cd4.png)
-![image](https://user-images.githubusercontent.com/116129150/236618330-3d9ed352-c1e1-490a-8802-283f03b6f2fc.png)
-![image](https://user-images.githubusercontent.com/116129150/236618337-d6f25518-f553-4c37-a08d-cfd08893b5fc.png)
-![image](https://user-images.githubusercontent.com/116129150/236618345-14f5a7fe-d39b-4522-9fd0-a5dbfe4a76f0.png)
+![236618309-78085d70-f1dc-431c-8e9d-23726abd63c8](https://user-images.githubusercontent.com/116129150/236618725-f5dadf4c-accf-47cc-953f-f87d882b8868.png)
+![236618326-ae8e6557-3246-4f24-b7aa-9885077d7e00](https://user-images.githubusercontent.com/116129150/236618729-c0675d2c-15b8-4354-97dc-7dc914b8d91e.png)
+![236618361-7d065ef1-9d04-40bf-81d6-1e8fdb8f5cd4](https://user-images.githubusercontent.com/116129150/236618733-90761363-dfbc-45e6-8436-e767d2180981.png)
+![236618330-3d9ed352-c1e1-490a-8802-283f03b6f2fc](https://user-images.githubusercontent.com/116129150/236618738-7a512ef0-582a-4a73-ab24-55807a71a8e6.png)
+![236618345-14f5a7fe-d39b-4522-9fd0-a5dbfe4a76f0](https://user-images.githubusercontent.com/116129150/236618742-f7deaf8f-df53-4769-a5cf-a632dfb328db.png)
+![236618337-d6f25518-f553-4c37-a08d-cfd08893b5fc](https://user-images.githubusercontent.com/116129150/236618747-db3564df-2c94-4b2a-9f6b-bde29c4b9bbe.png)
+
