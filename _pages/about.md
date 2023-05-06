@@ -19,8 +19,9 @@ Besides doing research I like to play cricket, ride bicycle, and make a long roa
 Technical Skills
 ================
 
-![image](https://user-images.githubusercontent.com/116129150/236618411-3c71bd7d-4e93-40fb-a9d0-cf79fb933993.png)
-![image](https://user-images.githubusercontent.com/116129150/236618427-6f2f5efe-3323-45fc-af82-b2dcc095d1bd.png)
+![236618427-6f2f5efe-3323-45fc-af82-b2dcc095d1bd](https://user-images.githubusercontent.com/116129150/236618691-e3169a3d-27b8-47e9-b360-3cdeec01fca4.png)
+![236618411-3c71bd7d-4e93-40fb-a9d0-cf79fb933993](https://user-images.githubusercontent.com/116129150/236618696-7dc5f89c-6359-461c-8524-4ebc73904784.png)
+
 
 
 Society Affiliation
