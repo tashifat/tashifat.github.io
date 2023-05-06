@@ -19,8 +19,13 @@ Besides doing research I like to play cricket, ride bicycle, and make a long roa
 Technical Skills
 ================
 
-![236618427-6f2f5efe-3323-45fc-af82-b2dcc095d1bd](https://user-images.githubusercontent.com/116129150/236618691-e3169a3d-27b8-47e9-b360-3cdeec01fca4.png)
 ![236618411-3c71bd7d-4e93-40fb-a9d0-cf79fb933993](https://user-images.githubusercontent.com/116129150/236618696-7dc5f89c-6359-461c-8524-4ebc73904784.png)
+![Python-Logo](https://user-images.githubusercontent.com/116129150/236619113-2e36adc8-83d7-4cee-acb2-fa6b5da6850c.png)
+![TensorFlow_logo svg](https://user-images.githubusercontent.com/116129150/236619135-c948591e-8086-420b-a9d1-e8425553d422.png)
+![1200px-Scikit_learn_logo_small svg](https://user-images.githubusercontent.com/116129150/236619141-56168627-fd86-45c8-a448-0f389cce690b.png)
+![twitter-image](https://user-images.githubusercontent.com/116129150/236619157-ec98cd03-3e17-4e01-aa4a-caeb664feec6.jpg)
+![LabVIEW_Logo](https://user-images.githubusercontent.com/116129150/236619171-56f0b1d6-6029-43c5-a521-56f41b179c76.jpg)
+![image](https://user-images.githubusercontent.com/116129150/236618952-308f9da4-cd0f-4b98-9913-dde706aff68e.png)
 
 
 
