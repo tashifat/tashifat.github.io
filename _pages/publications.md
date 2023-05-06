@@ -8,7 +8,7 @@ author_profile: true
 
 ## Journal Papers
 
-* [ANN Assisted Multi Sensor Information Fusion for BLDC Motor Fault Diagnosis]([https://ieeexplore.ieee.org/document/9529053](https://ieeexplore.ieee.org/document/9317859)<br>
+* [ANN Assisted Multi Sensor Information Fusion for BLDC Motor Fault Diagnosis](https://ieeexplore.ieee.org/document/9529053)<br>
   **Tanvir Alam Shifat**, Jang-Wook Hur<br>
   IEEE Access, vol. 9, pp. 9429-9441, 2021.
   
@@ -16,7 +16,7 @@ author_profile: true
   **Tanvir Alam Shifat**, Jang-Wook Hur<br>
   IEEE Access, vol. 8, pp. 168414-168428, 2020.
   
-* [An Effective Stator Fault Diagnosis Framework of BLDC Motor Based on Vibration and Current Signals]([https://ieeexplore.ieee.org/document/9529053](https://ieeexplore.ieee.org/document/9110877)<br>
+* [An Effective Stator Fault Diagnosis Framework of BLDC Motor Based on Vibration and Current Signals](https://ieeexplore.ieee.org/document/9110877)<br>
   **Tanvir Alam Shifat**, Jang-Wook Hur<br>
   IEEE Access, vol. 8, pp. 106968-106981, 2020.
 
