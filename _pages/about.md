@@ -18,9 +18,8 @@ Besides doing research I like to play cricket, ride bicycle, and make a long roa
 
 Research Interest
 ==================
-Renewable Energy, Electric Machines, Control Systems, Machine Learning.
 
-My research interests lie at the intersection of hardware implementation and data analysis, with a focus on renewable energy, electric machines, control systems, and machine learning. I am passionate about modeling, building, and testing electromechanical systems and understanding their behavior under a wide range of operating conditions. Through my work, I aim to develop innovative solutions that can improve the performance, efficiency, and sustainability of energy systems. 
+My research interests lie at the intersection of hardware implementation and data analysis, with a focus on **renewable energy, electric machines, control systems, and machine learning**. I am passionate about modeling, building, and testing electromechanical systems and understanding their behavior under a wide range of operating conditions. Through my work, I aim to develop innovative solutions that can improve the performance, efficiency, and sustainability of energy systems. 
 
 I am particularly interested in exploring the potential of machine learning techniques for optimizing control and monitoring systems, and leveraging data analytics to gain insights into system performance. Ultimately, my goal is to make a positive impact on the energy industry by developing cutting-edge technologies that can support a more sustainable future.
 
