@@ -12,7 +12,7 @@ I am a second-year Ph.D. student at the [School of EECS, Oregon State University
 
 Currently, I am working at the [Wallace Energy Systems & Renewables Facility](https://wesrf.engr.oregonstate.edu/) under the supervision of Dr. Ted Brekken. My research work is focused on the control and modeling of power electronics components with an emphasis on renewable energy technologies.
 
-I receieved an MS in Mechanical Engineering from Kumoh National Institute of Technology, Gumi, South Korea in 2020 and a BS in Electrical and Computer Engineering from East West University, Dhaka, Bangladesh in 2016.
+I receieved an MS in Mechanical Engineering from [Kumoh National Institute of Technology](https://eng.kumoh.ac.kr/eng/index.do), Gumi, South Korea in 2020 and a BS in Electrical and Computer Engineering from [East West University](https://www.ewubd.edu/) Dhaka, Bangladesh in 2016.
 
 Besides doing research I like to play cricket, ride bicycle, and make a long road trip. 
 
@@ -20,8 +20,6 @@ Research Interest
 ==================
 
 My research interests lie at the intersection of hardware implementation and data analysis, with a focus on **renewable energy, electric machines, control systems, and machine learning**. I am passionate about modeling, building, and testing electromechanical systems and understanding their behavior under a wide range of operating conditions. Through my work, I aim to develop innovative solutions that can improve the performance, efficiency, and sustainability of energy systems. 
-
-I am particularly interested in exploring the potential of machine learning techniques for optimizing control and monitoring systems, and leveraging data analytics to gain insights into system performance. Ultimately, my goal is to make a positive impact on the energy industry by developing cutting-edge technologies that can support a more sustainable future.
 
 
 Technical Skills
