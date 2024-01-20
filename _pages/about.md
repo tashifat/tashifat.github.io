@@ -25,25 +25,23 @@ My research interests lie at the intersection of hardware implementation and dat
 Technical Skills
 ================
 
-![236618411-3c71bd7d-4e93-40fb-a9d0-cf79fb933993](https://user-images.githubusercontent.com/116129150/236618696-7dc5f89c-6359-461c-8524-4ebc73904784.png)
-![Python-Logo](https://user-images.githubusercontent.com/116129150/236619113-2e36adc8-83d7-4cee-acb2-fa6b5da6850c.png)
-![TensorFlow_logo svg](https://user-images.githubusercontent.com/116129150/236619135-c948591e-8086-420b-a9d1-e8425553d422.png)
-![1200px-Scikit_learn_logo_small svg](https://user-images.githubusercontent.com/116129150/236619141-56168627-fd86-45c8-a448-0f389cce690b.png)
-![twitter-image](https://user-images.githubusercontent.com/116129150/236619157-ec98cd03-3e17-4e01-aa4a-caeb664feec6.jpg)
-![LabVIEW_Logo](https://user-images.githubusercontent.com/116129150/236619171-56f0b1d6-6029-43c5-a521-56f41b179c76.jpg)
-![image](https://user-images.githubusercontent.com/116129150/236618952-308f9da4-cd0f-4b98-9913-dde706aff68e.png)
+![236618411-3c71bd7d-4e93-40fb-a9d0-cf79fb933993 width=400](https://user-images.githubusercontent.com/116129150/236618696-7dc5f89c-6359-461c-8524-4ebc73904784.png)
+![Python-Logo width=400](https://user-images.githubusercontent.com/116129150/236619113-2e36adc8-83d7-4cee-acb2-fa6b5da6850c.png)
+![TensorFlow_logo svg width=400](https://user-images.githubusercontent.com/116129150/236619135-c948591e-8086-420b-a9d1-e8425553d422.png)
+![1200px-Scikit_learn_logo_small svg width=400](https://user-images.githubusercontent.com/116129150/236619141-56168627-fd86-45c8-a448-0f389cce690b.png)
+![twitter-image width=400](https://user-images.githubusercontent.com/116129150/236619157-ec98cd03-3e17-4e01-aa4a-caeb664feec6.jpg)
+![LabVIEW_Logo width=400](https://user-images.githubusercontent.com/116129150/236619171-56f0b1d6-6029-43c5-a521-56f41b179c76.jpg)
+![image width=400](https://user-images.githubusercontent.com/116129150/236618952-308f9da4-cd0f-4b98-9913-dde706aff68e.png)
 
 
 
 Society Affiliation
 ===================
-#local_width = 400
-#local_height = 400
 
-![236618309-78085d70-f1dc-431c-8e9d-23726abd63c8 width=local_width](https://user-images.githubusercontent.com/116129150/236618725-f5dadf4c-accf-47cc-953f-f87d882b8868.png)
-![236618326-ae8e6557-3246-4f24-b7aa-9885077d7e00](https://user-images.githubusercontent.com/116129150/236618729-c0675d2c-15b8-4354-97dc-7dc914b8d91e.png)
-![236618361-7d065ef1-9d04-40bf-81d6-1e8fdb8f5cd4](https://user-images.githubusercontent.com/116129150/236618733-90761363-dfbc-45e6-8436-e767d2180981.png)
-![236618330-3d9ed352-c1e1-490a-8802-283f03b6f2fc](https://user-images.githubusercontent.com/116129150/236618738-7a512ef0-582a-4a73-ab24-55807a71a8e6.png)
-![236618345-14f5a7fe-d39b-4522-9fd0-a5dbfe4a76f0](https://user-images.githubusercontent.com/116129150/236618742-f7deaf8f-df53-4769-a5cf-a632dfb328db.png)
-![236618337-d6f25518-f553-4c37-a08d-cfd08893b5fc](https://user-images.githubusercontent.com/116129150/236618747-db3564df-2c94-4b2a-9f6b-bde29c4b9bbe.png)
+![236618309-78085d70-f1dc-431c-8e9d-23726abd63c8 width=400](https://user-images.githubusercontent.com/116129150/236618725-f5dadf4c-accf-47cc-953f-f87d882b8868.png)
+![236618326-ae8e6557-3246-4f24-b7aa-9885077d7e00 width=400](https://user-images.githubusercontent.com/116129150/236618729-c0675d2c-15b8-4354-97dc-7dc914b8d91e.png)
+![236618361-7d065ef1-9d04-40bf-81d6-1e8fdb8f5cd4 width=400](https://user-images.githubusercontent.com/116129150/236618733-90761363-dfbc-45e6-8436-e767d2180981.png)
+![236618330-3d9ed352-c1e1-490a-8802-283f03b6f2fc width=400](https://user-images.githubusercontent.com/116129150/236618738-7a512ef0-582a-4a73-ab24-55807a71a8e6.png)
+![236618345-14f5a7fe-d39b-4522-9fd0-a5dbfe4a76f0 width=400](https://user-images.githubusercontent.com/116129150/236618742-f7deaf8f-df53-4769-a5cf-a632dfb328db.png)
+![236618337-d6f25518-f553-4c37-a08d-cfd08893b5fc width=400](https://user-images.githubusercontent.com/116129150/236618747-db3564df-2c94-4b2a-9f6b-bde29c4b9bbe.png)
 
