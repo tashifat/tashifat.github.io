@@ -19,7 +19,7 @@ Besides doing research, I like to play cricket, ride a bicycle, and take a long 
 Research Interest
 ==================
 
-My research interests lie at the intersection of hardware implementation and data analysis, with a focus on **renewable energy, power electronics, and machine learning**. My academic background has provided me with a strong foundation in both **Artificial Intelligence** and **energy systems**. I am particularly fascinated to revolutionize the energy sector by applying AI techniques in power systems for intelligent decision-making.
+My research interests lie at the intersection of hardware implementation and data analysis, with a focus on **renewable energy, intelligent control, and machine learning**. My academic background has provided me with a strong foundation in both **Artificial Intelligence** and **Energy Systems**. I am particularly fascinated to revolutionize the energy sector by applying AI techniques in power systems for intelligent decision-making.
 
 <!---
 I am passionate about modeling, building, and testing electrical systems and understanding their behavior under a wide range of operating conditions. Through my work, I aim to develop innovative solutions that can improve the performance, efficiency, and sustainability of energy systems. 
