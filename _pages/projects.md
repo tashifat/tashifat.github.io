@@ -5,6 +5,15 @@ permalink: /projects/
 author_profile: true
 ---
 
+### Sim-2-real DRL Controller Design for FCEV with Terrain Preview (Apr 2025 – Now)
+
+This project focuses on developing a deep reinforcement learning–based controller that leverages terrain preview to optimize fuel‐cell and battery usage in fuel cell electric vehicles (FCEVs). The goal is to reduce hydrogen consumption while maintaining battery SOC within safe operating limits.
+
+- Developed a DRL-based control policy that uses terrain preview to proactively balance fuel-cell and battery power, minimizing hydrogen consumption while keeping battery SOC within safe limits.
+- Generated H₂-vs-SOC maps across standard drive cycles and real-world conditions to guide training and validate against hardware-in-the-loop tests.
+- Early results show a 10–15% reduction in hydrogen use versus no-preview strategies; ongoing work focuses on transferring the learned policy from simulation to a prototype testbed.
+
+
 
 Feedback tuned MPC controller design for Wave Energy Converters (WECs)
 ======================================================================
@@ -13,9 +22,9 @@ The design of effective control systems is critical to the success of Wave Energ
 ![image](https://user-images.githubusercontent.com/116129150/236619888-93a3d6de-dc19-4d46-8510-02fbf1dbf64f.png)
 
 
-Linear PTO for tractor trailer suspension system
+Linear PTO for tractor-trailer suspension system
 ======================================================================
-As part of my recent work, I have focused on the development of a Linear PTO for a tractor trailer suspension system. One of the key challenges in this project was understanding the relative movement between the Chassis and Cab of a Class 8 Commercial Tractor. To address this, I demonstrated and formulated the relative movement to better understand the system and optimize the energy extraction process. Through my research, I was able to design a linear energy extraction methodology that minimizes parasitic loss on the inherent system of the tractor-trailer. This approach will lead to improved efficiency and reduced energy waste, which can have a significant impact on the transportation industry. By leveraging my expertise in mechanical engineering and system optimization, I was able to develop a more effective and efficient tractor trailer suspension system.
+As part of my recent work, I have focused on the development of a Linear PTO for a tractor-trailer suspension system. One of the key challenges in this project was understanding the relative movement between the Chassis and Cab of a Class 8 Commercial Tractor. To address this, I demonstrated and formulated the relative movement to better understand the system and optimize the energy extraction process. Through my research, I was able to design a linear energy extraction methodology that minimizes parasitic loss on the inherent system of the tractor-trailer. This approach will lead to improved efficiency and reduced energy waste, which can have a significant impact on the transportation industry. By leveraging my expertise in mechanical engineering and system optimization, I was able to develop a more effective and efficient tractor-trailer suspension system.
 
 ![cab (1)](https://user-images.githubusercontent.com/116129150/236620105-5971ae00-2441-44cb-b70f-4bd064b451fa.png)
 
