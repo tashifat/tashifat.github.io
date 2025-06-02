@@ -5,8 +5,9 @@ permalink: /projects/
 author_profile: true
 ---
 
-### Sim-2-real DRL Controller Design for FCEV with Terrain Preview (Apr 2025 – Now)
 
+Sim-2-real DRL Controller Design for FCEV with Terrain Preview (Apr 2025 – Now)
+======================================================================
 This project focuses on developing a deep reinforcement learning–based controller that leverages terrain preview to optimize fuel‐cell and battery usage in fuel cell electric vehicles (FCEVs). The goal is to reduce hydrogen consumption while maintaining battery SOC within safe operating limits.
 
 - Developed a DRL-based control policy that uses terrain preview to proactively balance fuel-cell and battery power, minimizing hydrogen consumption while keeping battery SOC within safe limits.
