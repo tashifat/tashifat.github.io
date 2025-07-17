@@ -16,7 +16,7 @@ This project focuses on developing a deep reinforcement learning–based control
 
 
 
-PI-emulating MPC controller design for Wave Energy Converters (WECs)
+PI-emulating MPC controller design for Wave Energy Converters (WECs) (Jun 2022 – Apr 2025)
 ======================================================================
 Efficient control is critical for maximizing energy capture from ocean waves. This project explores a feedback-tuned Model Predictive Control (MPC) framework for WECs, using LMI-based tuning for optimal performance.
 
@@ -28,7 +28,7 @@ Efficient control is critical for maximizing energy capture from ocean waves. Th
 ![image](https://user-images.githubusercontent.com/116129150/236619888-93a3d6de-dc19-4d46-8510-02fbf1dbf64f.png)
 
 
-Linear PTO for tractor-trailer suspension system
+Linear PTO for tractor-trailer suspension system (Jan 2023 – Jun 2024)
 ======================================================================
 As part of my recent work, I have focused on the development of a Linear PTO for a tractor-trailer suspension system. One of the key challenges in this project was understanding the relative movement between the Chassis and Cab of a Class 8 Commercial Tractor. To address this, I demonstrated and formulated the relative movement to better understand the system and optimize the energy extraction process. Key contributions are:
 
@@ -45,7 +45,7 @@ As part of my work in the field of energy storage, I have been involved in the d
 -->
 
 
-AI Based Prognostics and Health Management of BLDC Motors 
+AI Based Prognostics and Health Management of BLDC Motors (Sep 2018 – May 2021)
 ==========================================================
 
 Unexpected machine failures can lead to system-wide shutdowns, reduced output, and safety risks. To mitigate this, we developed a prognostics and health management (PHM) framework for brushless DC (BLDC) motors using multi-sensor data and machine learning techniques. The system continuously monitors degradation patterns by analyzing vibration, temperature, current, and voltage signals collected under accelerated life testing. Key contributions are:
