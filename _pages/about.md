@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth-year Ph.D. student at the [School of EECS, Oregon State University](https://eecs.oregonstate.edu/) in Corvallis, Oregon. 
+I’m a Ph.D. student in Electrical Engineering with a minor in Artificial Intelligence at the [School of EECS, Oregon State University](https://eecs.oregonstate.edu/) in Corvallis, Oregon. 
 
 Currently, I am working at the [Wallace Energy Systems & Renewables Facility](https://wesrf.engr.oregonstate.edu/) under the supervision of Dr. Ted Brekken. My research is focused on the control and modeling of wave energy converters (WECs) and electric vehicles (EVs) for optimizing efficient power consumption. 
 
@@ -19,7 +19,8 @@ Besides doing research, I like playing cricket, badminton, riding a bicycle, and
 Research Interest
 ==================
 
-My research interests lie at the intersection of hardware implementation and data analysis, with a focus on **renewable energy, intelligent control, and machine learning**. My academic background has provided me with a strong foundation in both **Artificial Intelligence** and **Energy Systems**. I am particularly fascinated to revolutionize the energy sector by applying AI techniques in power systems for intelligent decision-making.
+My research and professional interests lie in **electric vehicles (EVs)**, **marine renewable energy** and **AI-based intelligent control**. I’m especially passionate about combining hands-on hardware integration with advanced modeling and AI-based control strategies to develop sustainable and efficient energy systems.
+
 
 <!---
 I am passionate about modeling, building, and testing electrical systems and understanding their behavior under a wide range of operating conditions. Through my work, I aim to develop innovative solutions that can improve the performance, efficiency, and sustainability of energy systems. 
