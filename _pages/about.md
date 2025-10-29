@@ -17,12 +17,16 @@ I received an MS in Mechanical Engineering from [Kumoh National Institute of Tec
 Besides doing research, I like playing cricket, badminton, riding a bicycle, and taking long road trips. 
 
 
+Open to New Positions: Available for full-time roles starting Fall 2026.
+=========================================================================
+
+
 <!---
 Research Interest
 ==================
 
 My research and professional interests lie in **electric vehicles (EVs)**, **marine renewable energy** and **AI-based intelligent control**. I’m especially passionate about combining hands-on hardware integration with advanced modeling and AI-based control strategies to develop sustainable and efficient energy systems.
-
+-->
 
 <!---
 I am passionate about modeling, building, and testing electrical systems and understanding their behavior under a wide range of operating conditions. Through my work, I aim to develop innovative solutions that can improve the performance, efficiency, and sustainability of energy systems. 
@@ -107,7 +111,7 @@ Publications:
 </tr>
 </table>
 
-
+<!---
 
 Technical Skills
 ================
@@ -120,7 +124,7 @@ Technical Skills
 ![LabVIEW_Logo width=400](https://user-images.githubusercontent.com/116129150/236619171-56f0b1d6-6029-43c5-a521-56f41b179c76.jpg)
 ![image width=400](https://user-images.githubusercontent.com/116129150/236618952-308f9da4-cd0f-4b98-9913-dde706aff68e.png)
 
-
+-->
 
 Society Affiliation
 ===================
