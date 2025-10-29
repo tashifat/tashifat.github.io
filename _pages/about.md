@@ -10,12 +10,14 @@ redirect_from:
 
 I’m a Ph.D. student in Electrical Engineering with a minor in Artificial Intelligence at the [School of EECS, Oregon State University](https://eecs.oregonstate.edu/) in Corvallis, Oregon. 
 
-Currently, I am working at the [Wallace Energy Systems & Renewables Facility](https://wesrf.engr.oregonstate.edu/) under the supervision of Dr. Ted Brekken. My research is focused on the control and modeling of wave energy converters (WECs) and electric vehicles (EVs) for optimizing efficient power consumption. 
+Currently, I am working at the [Wallace Energy Systems & Renewables Facility](https://wesrf.engr.oregonstate.edu/) under the supervision of Dr. Ted Brekken. My research is focused on the control and modeling of regenerative energy systems (i.e. wave energy converters (WECs) and electric vehicles (EVs)) for optimizing efficient power consumption. 
 
 I received an MS in Mechanical Engineering from [Kumoh National Institute of Technology](https://eng.kumoh.ac.kr/eng/index.do), Gumi, South Korea, in 2020 and a BS in Electrical and Computer Engineering from [East West University](https://www.ewubd.edu/) Dhaka, Bangladesh in 2016.
 
 Besides doing research, I like playing cricket, badminton, riding a bicycle, and taking long road trips. 
 
+
+<!---
 Research Interest
 ==================
 
@@ -25,6 +27,87 @@ My research and professional interests lie in **electric vehicles (EVs)**, **mar
 <!---
 I am passionate about modeling, building, and testing electrical systems and understanding their behavior under a wide range of operating conditions. Through my work, I aim to develop innovative solutions that can improve the performance, efficiency, and sustainability of energy systems. 
 -->
+
+Research Overview
+================
+
+## PI-Emulating MPC via Neural Network Sea-State Prediction
+
+<table>
+<tr>
+<td width="40%">
+  
+<img src="https://tashifat.github.io/images/pi2mpcNN.png" alt="Research Overview" width="100%"/>
+
+</td>
+<td width="60%">
+
+Can we predict the sea state using only on-board WEC motion and PTO measurements so that the controller can adapt in real time? 
+
+We train a neural network to infer wave parameters and excitation force online, enabling PI/MPC retuning without any external sensors. 
+
+MATLAB–Python co-simulation shows that this adaptive strategy can boost absorbed power by ~10–30% compared to fixed-gain control under changing sea conditions.
+
+Publications: 
+[Energies (2025)](https://www.mdpi.com/2076-3417/15/10/5772),
+[IFAC-CAMS (2024)](https://www.sciencedirect.com/science/article/pii/S240589632401841X),
+[UMERC (2025)](https://umerc-us.org/events/110075)
+
+
+</td>
+</tr>
+</table>
+
+## Electro-Mechanical Co-Design for Energy Harvesting in Heavy-Duty Truck Suspensions
+
+<table>
+<tr>
+<td width="40%">
+  
+<img src="https://tashifat.github.io/images/conmet.png" alt="Research Overview" width="100%"/>
+
+</td>
+<td width="60%">
+
+What if every bump charged the battery? Can we harvest meaningful electrical energy from the suspension motion of electric semi-trucks as they drive over real roads? 
+
+We model the full truck dynamics and PTO in an electro-mechanical co-design framework, simulate diverse road profiles to quantify harvesting potential, and optimize the system to maximize energy capture while maintaining ride comfort and vehicle safety.
+
+
+Publications: IEEE TEC (Under Review) 
+
+</td>
+</tr>
+</table>
+
+## Electro-Mechanical Co-Design for Energy Harvesting in Heavy-Duty Truck Suspensions
+
+<table>
+<tr>
+<td width="40%">
+  
+<img src="https://tashifat.github.io/images/bldc.jpeg" alt="Research Overview" width="100%"/>
+
+</td>
+<td width="60%">
+
+We developed an AI-based prognostics and health management framework for BLDC motors that continuously monitors vibration, temperature, current, and voltage under accelerated life testing to detect degradation early. Major contributions are:
+
+1. Developed an NI-LabVIEW test rig for accelerated life testing, logging vibration, current, voltage, temperature, and speed.
+2. Introduced a 3rd-harmonic current feature-selection technique, improving fault-diagnosis accuracy by 10 % over conventional methods.
+3. Developed a remaining useful life estimation framework using machine learning to enable post-fault decision making. 
+
+Publications: 
+[IEEE Access (2020)](https://ieeexplore.ieee.org/document/9110877),
+[IEEE Access (2021)](https://ieeexplore.ieee.org/abstract/document/9193968),
+[IEEE Sensors Journal (2022)](https://ieeexplore.ieee.org/abstract/document/9758819)
+
+
+</td>
+</tr>
+</table>
+
+
 
 Technical Skills
 ================
