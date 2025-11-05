@@ -120,12 +120,18 @@ Technical Skills
 
 -->
 
-Society Affiliation
-===================
+<h2>Society Affiliation</h2>
 
-![236618309-78085d70-f1dc-431c-8e9d-23726abd63c8 width=400](https://user-images.githubusercontent.com/116129150/236618725-f5dadf4c-accf-47cc-953f-f87d882b8868.png)
-![236618326-ae8e6557-3246-4f24-b7aa-9885077d7e00 width=400](https://user-images.githubusercontent.com/116129150/236618729-c0675d2c-15b8-4354-97dc-7dc914b8d91e.png)
-![236618361-7d065ef1-9d04-40bf-81d6-1e8fdb8f5cd4 width=400](https://user-images.githubusercontent.com/116129150/236618733-90761363-dfbc-45e6-8436-e767d2180981.png)
-![236618330-3d9ed352-c1e1-490a-8802-283f03b6f2fc width=400](https://user-images.githubusercontent.com/116129150/236618738-7a512ef0-582a-4a73-ab24-55807a71a8e6.png)
-![236618337-d6f25518-f553-4c37-a08d-cfd08893b5fc width=400](https://user-images.githubusercontent.com/116129150/236618747-db3564df-2c94-4b2a-9f6b-bde29c4b9bbe.png)
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
 
+  <img src="https://user-images.githubusercontent.com/116129150/236618725-f5dadf4c-accf-47cc-953f-f87d882b8868.png" alt="IEEE" width="250"/>
+  
+  <img src="https://user-images.githubusercontent.com/116129150/236618729-c0675d2c-15b8-4354-97dc-7dc914b8d91e.png" alt="Society 2" width="250"/>
+  
+  <img src="https://user-images.githubusercontent.com/116129150/236618733-90761363-dfbc-45e6-8436-e767d2180981.png" alt="Society 3" width="250"/>
+  
+  <img src="https://user-images.githubusercontent.com/116129150/236618738-7a512ef0-582a-4a73-ab24-55807a71a8e6.png" alt="Society 4" width="250"/>
+  
+  <img src="https://user-images.githubusercontent.com/116129150/236618747-db3564df-2c94-4b2a-9f6b-bde29c4b9bbe.png" alt="Society 5" width="250"/>
+
+</div>
