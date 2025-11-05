@@ -81,7 +81,7 @@ Publications: IEEE TEC (Under Review)
 </tr>
 </table>
 
-## Electro-Mechanical Co-Design for Energy Harvesting in Heavy-Duty Truck Suspensions
+## AI-based Prognostics and Health Management of Electric Drives
 
 <table>
 <tr>
