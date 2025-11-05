@@ -52,7 +52,7 @@ We train a neural network to infer wave parameters and excitation force online, 
 
 MATLAB–Python co-simulation shows that this adaptive strategy can boost absorbed power by ~10–30% compared to fixed-gain control under changing sea conditions.
 
-Publications: [Energies (2025)](https://www.mdpi.com/2076-3417/15/10/5772) | [IFAC-CAMS (2024)](https://www.sciencedirect.com/science/article/pii/S240589632401841X) | [UMERC (2025)](https://umerc-us.org/events/110075)
+Publications: [Energies (2025)](https://www.mdpi.com/2076-3417/15/10/5772), [IFAC-CAMS (2024)](https://www.sciencedirect.com/science/article/pii/S240589632401841X), [UMERC (2025)](https://umerc-us.org/events/110075)
 
 
 </td>
