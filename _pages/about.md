@@ -134,4 +134,11 @@ Technical Skills
   
   <img src="https://user-images.githubusercontent.com/116129150/236618747-db3564df-2c94-4b2a-9f6b-bde29c4b9bbe.png" alt="Society 5" width="250"/>
 
+  <img src="https://tashifat.github.io/images/pmec.png" alt="Society 5" width="250"/>
+
+  <img src="https://tashifat.github.io/images/IEEE_RS_Logo.jpg" alt="Society 6" width="250"/>
+
+  <img src="https://tashifat.github.io/images/IEEE_TEC_Logo_062025.jpg" alt="Society 7" width="250"/>
+
+
 </div>
