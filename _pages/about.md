@@ -17,8 +17,11 @@ I received an MS in Mechanical Engineering from [Kumoh National Institute of Tec
 Besides doing research, I like playing cricket, badminton, riding a bicycle, and taking long road trips. 
 
 
-Open to New Positions: Available for full-time roles starting Fall 2026.
-=========================================================================
+<div class="notice--success" style="background:#e6f7ff; border-left:5px solid #0284c7; color:#0369a1; padding:1rem 1.2rem; border-radius:8px;">
+  <span style="font-size:1.1em; margin-right:0.35em;">⚡</span>
+  <strong style="color:#0f172a;">Open to New Positions</strong><br>
+  <span style="color:#e0f2fe;">Available for full-time roles starting <strong style="color:#0284c7;">Fall 2026</strong>.</span>
+</div>
 
 
 <!---
