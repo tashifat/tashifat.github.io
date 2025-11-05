@@ -52,10 +52,7 @@ We train a neural network to infer wave parameters and excitation force online, 
 
 MATLAB–Python co-simulation shows that this adaptive strategy can boost absorbed power by ~10–30% compared to fixed-gain control under changing sea conditions.
 
-Publications: 
-[Energies (2025)](https://www.mdpi.com/2076-3417/15/10/5772),
-[IFAC-CAMS (2024)](https://www.sciencedirect.com/science/article/pii/S240589632401841X),
-[UMERC (2025)](https://umerc-us.org/events/110075)
+Publications: [Energies (2025)](https://www.mdpi.com/2076-3417/15/10/5772) | [IFAC-CAMS (2024)](https://www.sciencedirect.com/science/article/pii/S240589632401841X) | [UMERC (2025)](https://umerc-us.org/events/110075)
 
 
 </td>
@@ -101,10 +98,7 @@ We developed an AI-based prognostics and health management framework for BLDC mo
 2. Introduced a 3rd-harmonic current feature-selection technique, improving fault-diagnosis accuracy by 10 % over conventional methods.
 3. Developed a remaining useful life estimation framework using machine learning to enable post-fault decision making. 
 
-Publications: 
-[IEEE Access (2020)](https://ieeexplore.ieee.org/document/9110877),
-[IEEE Access (2021)](https://ieeexplore.ieee.org/abstract/document/9193968),
-[IEEE Sensors Journal (2022)](https://ieeexplore.ieee.org/abstract/document/9758819)
+Publications: [IEEE Access (2020)](https://ieeexplore.ieee.org/document/9110877) | [IEEE Access (2021)](https://ieeexplore.ieee.org/abstract/document/9193968) | [IEEE Sensors Journal (2022)](https://ieeexplore.ieee.org/abstract/document/9758819)
 
 
 </td>
