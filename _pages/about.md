@@ -17,12 +17,7 @@ I received an MS in Mechanical Engineering from [Kumoh National Institute of Tec
 Besides doing research, I like playing cricket, badminton, riding a bicycle, and taking long road trips. 
 
 
-<div class="notice--success" style="background:#e6f7ff; border-left:5px solid #0284c7; color:#0369a1; padding:1rem 1.2rem; border-radius:8px;">
-  <span style="font-size:1.1em; margin-right:0.35em;">⚡</span>
-  <strong style="color:#0f172a;">Open to New Positions</strong><br>
-  <span style="color:#e0f2fe;">Available for full-time roles starting <strong style="color:#0284c7;">Fall 2026</strong>.</span>
-</div>
-
+# Open to New Positions: Available for full-time roles starting Fall 2026.
 
 <!---
 Research Interest
@@ -47,7 +42,7 @@ Research Overview
 <img src="https://tashifat.github.io/images/pi2mpcNN.png" alt="Research Overview" width="100%"/>
 
 </td>
-<td width="60%">
+<td width="60%" markdown="1">
 
 Can we predict the sea state using only on-board WEC motion and PTO measurements so that the controller can adapt in real time? 
 
@@ -57,7 +52,6 @@ MATLAB–Python co-simulation shows that this adaptive strategy can boost absorb
 
 Publications: [Energies (2025)](https://www.mdpi.com/2076-3417/15/10/5772) | [IFAC-CAMS (2024)](https://www.sciencedirect.com/science/article/pii/S240589632401841X) | [UMERC (2025)](https://umerc-us.org/events/110075)
 
-I’m a Ph.D. student in Electrical Engineering with a minor in Artificial Intelligence at the [School of EECS, Oregon State University](https://eecs.oregonstate.edu/) in Corvallis, Oregon. 
 
 </td>
 </tr>
@@ -72,7 +66,7 @@ I’m a Ph.D. student in Electrical Engineering with a minor in Artificial Intel
 <img src="https://tashifat.github.io/images/conmet.png" alt="Research Overview" width="100%"/>
 
 </td>
-<td width="60%">
+<td width="60%" markdown="1">
 
 What if every bump charged the battery? Can we harvest meaningful electrical energy from the suspension motion of electric semi-trucks as they drive over real roads? 
 
@@ -94,7 +88,7 @@ Publications: IEEE TEC (Under Review)
 <img src="https://tashifat.github.io/images/bldc.jpeg" alt="Research Overview" width="100%"/>
 
 </td>
-<td width="60%">
+<td width="60%" markdown="1">
 
 We developed an AI-based prognostics and health management framework for BLDC motors that continuously monitors vibration, temperature, current, and voltage under accelerated life testing to detect degradation early. Major contributions are:
 
