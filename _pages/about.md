@@ -57,6 +57,7 @@ MATLAB–Python co-simulation shows that this adaptive strategy can boost absorb
 
 Publications: [Energies (2025)](https://www.mdpi.com/2076-3417/15/10/5772) | [IFAC-CAMS (2024)](https://www.sciencedirect.com/science/article/pii/S240589632401841X) | [UMERC (2025)](https://umerc-us.org/events/110075)
 
+I’m a Ph.D. student in Electrical Engineering with a minor in Artificial Intelligence at the [School of EECS, Oregon State University](https://eecs.oregonstate.edu/) in Corvallis, Oregon. 
 
 </td>
 </tr>
