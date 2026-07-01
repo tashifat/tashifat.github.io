@@ -10,7 +10,7 @@ redirect_from:
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=30&duration=2000&pause=100&color=F70000&width=435&lines=Marine+Renewables;Real-time+Systems;Machine+Learning;Reliability+Testing" alt="Typing focus areas" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&duration=2000&pause=500&color=F70000&center=true&vCenter=true&width=435&lines=...Marine+Renewables...;...Real-time+Systems...;...Machine+Learning...;...Reliability+Testing..." alt="Typing focus areas" />
 </p>
 
 I’m a Ph.D. student in Electrical Engineering with a minor in Artificial Intelligence at the [School of EECS, Oregon State University](https://eecs.oregonstate.edu/) in Corvallis, Oregon. 
@@ -21,8 +21,9 @@ I received an MS in Mechanical Engineering from [Kumoh National Institute of Tec
 
 Besides doing research, I like playing cricket, badminton, riding a bicycle, and taking long road trips. 
 
-
-> Open to New Positions: Available for Full-Time Roles Starting Fall 2026
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&duration=3500&pause=500&color=1000FF&center=true&vCenter=true&width=550&lines=Open+to+full-time+roles+starting+Fall+2026!" alt="Typing focus areas" />
+</p>
 
 <!---
 Research Interest
