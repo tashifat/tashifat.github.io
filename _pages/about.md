@@ -8,6 +8,11 @@ redirect_from:
   - /about.html
 ---
 
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=30&duration=2000&pause=100&color=F70000&width=435&lines=Marine+Renewables;Real-time+Systems;Machine+Learning;Reliability+Testing" alt="Typing focus areas" />
+</p>
+
 I’m a Ph.D. student in Electrical Engineering with a minor in Artificial Intelligence at the [School of EECS, Oregon State University](https://eecs.oregonstate.edu/) in Corvallis, Oregon. 
 
 Currently, I am working at the [Wallace Energy Systems & Renewables Facility](https://wesrf.engr.oregonstate.edu/) under the supervision of Dr. Ted Brekken. My research is focused on the control and modeling of regenerative energy systems (i.e. wave energy converters (WECs) and electric vehicles (EVs)) for optimizing efficient power consumption. 
@@ -17,9 +22,7 @@ I received an MS in Mechanical Engineering from [Kumoh National Institute of Tec
 Besides doing research, I like playing cricket, badminton, riding a bicycle, and taking long road trips. 
 
 
-<h1 style="background-color:#0284c7; color:white; padding:0.6em 1em; border-radius:8px; text-align:center;">
-  🚀 Open to New Positions: Available for full-time roles starting Fall 2026.
-</h1>
+> Open to New Positions: Available for Full-Time Roles Starting Fall 2026
 
 <!---
 Research Interest
