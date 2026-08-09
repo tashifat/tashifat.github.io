@@ -1,0 +1,39 @@
+/* ==========================================================================
+   Cursor-responsive spider-web background
+   ========================================================================== */
+
+html {
+  background: $background-color;
+}
+
+body {
+  background: transparent;
+}
+
+.cursor-bg-canvas {
+  position: fixed;
+  inset: 0;
+  z-index: 0 !important;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.initial-content,
+.archive,
+.page,
+.page__inner-wrap,
+.page__content,
+.sidebar,
+.author__content,
+.author__urls,
+#main {
+  background: transparent !important;
+}
+
+.masthead,
+#main,
+.page__footer {
+  position: relative;
+  z-index: 1;
+}
