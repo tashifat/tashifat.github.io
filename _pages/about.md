@@ -15,7 +15,7 @@ redirect_from:
 
 I’m a Ph.D. student in Electrical Engineering with a minor in Artificial Intelligence at the [School of EECS, Oregon State University](https://eecs.oregonstate.edu/) in Corvallis, Oregon. 
 
-Currently, I am working at the [Wallace Energy Systems & Renewables Facility](https://wesrf.engr.oregonstate.edu/) under the supervision of Dr. Ted Brekken. My research is focused on the control and modeling of regenerative energy systems (i.e. wave energy converters (WECs) and electric vehicles (EVs)) for optimizing efficient power consumption. 
+Currently, I am working at the [Wallace Energy Systems & Renewables Facility](https://wesrf.engr.oregonstate.edu/) under the supervision of [Dr. Ted Brekken](https://engineering.oregonstate.edu/people/ted-brekken). My research is focused on the control and modeling of regenerative energy systems (i.e. wave energy converters (WECs) and electric vehicles (EVs)) for optimizing efficient power consumption.
 
 I received an MS in Mechanical Engineering from [Kumoh National Institute of Technology](https://eng.kumoh.ac.kr/eng/index.do), Gumi, South Korea, in 2020 and a BS in Electrical and Computer Engineering from [East West University](https://www.ewubd.edu/) Dhaka, Bangladesh in 2016.
 
