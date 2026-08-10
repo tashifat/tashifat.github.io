@@ -22,7 +22,7 @@ I received an MS in Mechanical Engineering from [Kumoh National Institute of Tec
 Besides doing research, I like playing cricket, badminton, riding a bicycle, and taking long road trips. 
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&duration=3500&pause=500&color=1000FF&center=true&vCenter=true&width=550&lines=Open+to+full-time+roles+starting+Fall+2026!" alt="Typing focus areas" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&duration=3500&pause=500&color=064E3B&center=true&vCenter=true&width=550&lines=Open+to+full-time+roles+starting+Fall+2026!" alt="Typing focus areas" />
 </p>
 
 <!---
