@@ -17,12 +17,12 @@ I’m a Ph.D. student in Electrical Engineering with a minor in Artificial Intel
 
 Currently, I am working at the [Wallace Energy Systems & Renewables Facility](https://wesrf.engr.oregonstate.edu/) under the supervision of [Dr. Ted Brekken](https://engineering.oregonstate.edu/people/ted-brekken). My research is focused on the control and modeling of regenerative energy systems (i.e. wave energy converters (WECs) and electric vehicles (EVs)) for optimizing efficient power consumption.
 
-I received an MS in Mechanical Engineering from [Kumoh National Institute of Technology](https://eng.kumoh.ac.kr/eng/index.do), Gumi, South Korea, in 2020 and a BS in Electrical and Computer Engineering from [East West University](https://www.ewubd.edu/) Dhaka, Bangladesh in 2016.
+I received an MS in Mechanical Engineering from [Kumoh National Institute of Technology](https://eng.kumoh.ac.kr/eng/index.do), Gumi, South Korea, in 2020 and a BS in Electrical and Electronic Engineering from [East West University](https://www.ewubd.edu/) Dhaka, Bangladesh in 2016.
 
 Besides doing research, I like playing cricket, badminton, riding a bicycle, and taking long road trips. 
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&duration=3500&pause=500&color=FFD6A5&center=true&vCenter=true&width=550&lines=Open+to+full-time+roles+starting+Fall+2026!" alt="Typing focus areas" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&duration=3500&pause=500&color=6B352A&center=true&vCenter=true&width=550&lines=Open+to+full-time+roles+starting+Fall+2026!" alt="Typing focus areas" />
 </p>
 
 <!---
