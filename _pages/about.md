@@ -51,25 +51,36 @@ Technical Skills
 
 -->
 
+<div class="wec-pipeline-animation-wrap">
+  <iframe
+    class="wec-pipeline-animation"
+    src="/files/wec_pipeline_animation_v2_1.html"
+    title="Animated wave energy converter data pipeline"
+    loading="lazy"
+    scrolling="no"
+    sandbox="allow-scripts">
+  </iframe>
+</div>
+
 <h2>Society Affiliation</h2>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
 
-  <img src="https://user-images.githubusercontent.com/116129150/236618725-f5dadf4c-accf-47cc-953f-f87d882b8868.png" alt="IEEE" width="250"/>
+  <img src="https://user-images.githubusercontent.com/116129150/236618725-f5dadf4c-accf-47cc-953f-f87d882b8868.png" alt="IEEE" width="125"/>
   
-  <img src="https://user-images.githubusercontent.com/116129150/236618729-c0675d2c-15b8-4354-97dc-7dc914b8d91e.png" alt="Society 2" width="250"/>
+  <img src="https://user-images.githubusercontent.com/116129150/236618729-c0675d2c-15b8-4354-97dc-7dc914b8d91e.png" alt="Society 2" width="125"/>
   
-  <img src="https://user-images.githubusercontent.com/116129150/236618733-90761363-dfbc-45e6-8436-e767d2180981.png" alt="Society 3" width="250"/>
+  <img src="https://user-images.githubusercontent.com/116129150/236618733-90761363-dfbc-45e6-8436-e767d2180981.png" alt="Society 3" width="125"/>
   
-  <img src="https://user-images.githubusercontent.com/116129150/236618738-7a512ef0-582a-4a73-ab24-55807a71a8e6.png" alt="Society 4" width="250"/>
+  <img src="https://user-images.githubusercontent.com/116129150/236618738-7a512ef0-582a-4a73-ab24-55807a71a8e6.png" alt="Society 4" width="125"/>
   
-  <img src="https://user-images.githubusercontent.com/116129150/236618747-db3564df-2c94-4b2a-9f6b-bde29c4b9bbe.png" alt="Society 5" width="250"/>
+  <img src="https://user-images.githubusercontent.com/116129150/236618747-db3564df-2c94-4b2a-9f6b-bde29c4b9bbe.png" alt="Society 5" width="125"/>
 
-  <img src="https://tashifat.github.io/images/pmec.png" alt="Society 5" width="250"/>
+  <img src="https://tashifat.github.io/images/pmec.png" alt="Society 5" width="125"/>
 
-  <img src="https://tashifat.github.io/images/IEEE_RS_Logo.jpg" alt="Society 6" width="250"/>
+  <img src="https://tashifat.github.io/images/IEEE_RS_Logo.jpg" alt="Society 6" width="125"/>
 
-  <img src="https://tashifat.github.io/images/IEEE_TEC_Logo_062025.jpg" alt="Society 7" width="250"/>
+  <img src="https://tashifat.github.io/images/IEEE_TEC_Logo_062025.jpg" alt="Society 7" width="125"/>
 
 
 </div>

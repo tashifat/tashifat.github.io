@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WEC Data Pipeline — Animated</title>
+<style>
+  :root{
+    --ink:#1f2a36;
+    --matlab-stroke:#5c6f82;
+    --py-fill:#e3f1e0;     --py-stroke:#7fae7f;
+    --box-blue:#e8f1fb;    --box-blue-stroke:#4a5d70;
+    --accent-orange:#f5a623;
+    --arrow:#2b3947;
+    --step:.55s;
+  }
+  body{
+    margin:0; padding:24px 12px; background:#fbfbf9; color:var(--ink);
+    font-family:"Segoe UI",system-ui,-apple-system,sans-serif;
+    display:flex; flex-direction:column; align-items:center; gap:14px;
+  }
+  .stage{width:min(1200px,100%);}
+  svg{width:100%; height:auto; display:block;}
+  text{font-family:inherit; fill:var(--ink);}
+  .panel-title{font-size:21px; font-weight:700;}
+  .panel-sub{font-size:19px; font-weight:700;}
+  .lbl{font-size:14px; font-weight:600;}
+  .sm{font-size:12px; font-weight:500;}
+
+  /* ---- reveal machinery ---- */
+  .st{opacity:0; animation:pop .45s ease-out forwards; animation-delay:calc(var(--i)*var(--step));}
+  @keyframes pop{from{opacity:0; transform:translateY(8px) scale(.97);} to{opacity:1; transform:none;}}
+  .wire{stroke-dasharray:600; stroke-dashoffset:600; animation:draw .5s ease-out forwards; animation-delay:calc(var(--i)*var(--step));}
+  @keyframes draw{to{stroke-dashoffset:0;}}
+  .wire-head{opacity:0; animation:fadein .2s linear forwards; animation-delay:calc(var(--i)*var(--step) + .4s);}
+  @keyframes fadein{to{opacity:1;}}
+  .wg{opacity:0; animation:appear .01s linear forwards; animation-delay:calc(var(--i)*var(--step));}
+  @keyframes appear{to{opacity:1;}}
+
+  .spin{transform-origin:846px 268px; animation:spin 6s linear infinite; animation-delay:calc(var(--i)*var(--step));}
+  @keyframes spin{to{transform:rotate(360deg);}}
+
+  /* ---- data-flow dots in the transfer arrows ---- */
+  .dot{opacity:0; animation-duration:1.7s; animation-timing-function:linear; animation-iteration-count:infinite;}
+  .dotR{animation-name:flowR;}
+  .dotL{animation-name:flowL;}
+  @keyframes flowR{0%{transform:translateX(0); opacity:0;} 12%{opacity:1;} 85%{opacity:1;} 100%{transform:translateX(106px); opacity:0;}}
+  @keyframes flowL{0%{transform:translateX(0); opacity:0;} 12%{opacity:1;} 85%{opacity:1;} 100%{transform:translateX(-106px); opacity:0;}}
+
+  /* ---- ocean ambience ---- */
+  .bob{animation:bob 3s ease-in-out infinite;}
+  @keyframes bob{0%,100%{transform:translateY(0);} 50%{transform:translateY(-7px);}}
+  .surface{animation:drift 4s linear infinite;}
+  @keyframes drift{to{transform:translateX(-84px);}}
+  .wavefront{opacity:0; animation:rollin 2.4s linear infinite;}
+  @keyframes rollin{
+    0%{transform:translateX(0); opacity:0;}
+    18%{opacity:.9;} 75%{opacity:.9;}
+    100%{transform:translateX(88px); opacity:0;}
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    .st,.wire,.wire-head,.wg{animation:none; opacity:1; stroke-dashoffset:0;}
+    .spin,.bob,.surface{animation:none;}
+    .dot{animation:none; opacity:0;}
+    .wavefront{animation:none; opacity:.9;}
+  }
+
+  .controls{display:flex; gap:14px; align-items:center; font-size:14px;}
+  button{
+    border:1.5px solid var(--matlab-stroke); background:#fff; color:var(--ink);
+    padding:7px 18px; border-radius:8px; font-size:14px; font-weight:600; cursor:pointer;
+  }
+  button:hover{background:#d9e9f8;}
+  button:focus-visible{outline:2px solid var(--accent-orange); outline-offset:2px;}
+  label{display:flex; gap:6px; align-items:center; cursor:pointer; user-select:none;}
+</style>
+</head>
+<body>
+
+<div class="stage" id="stage">
+<svg id="diagram" viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg" role="img"
+     aria-label="Animated data pipeline: ocean waves drive a point-absorber buoy simulated in MATLAB/Simulink, which streams motion data to a Python neural network model that sends predictions back to the controller.">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--arrow)"/>
+    </marker>
+    <marker id="ahw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#f4fbf9"/>
+    </marker>
+    <linearGradient id="tf" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#2b4bb5"/><stop offset=".45" stop-color="#2fa84f"/>
+      <stop offset=".75" stop-color="#f2c035"/><stop offset="1" stop-color="#d64545"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#79b3ab"/><stop offset="1" stop-color="#37625f"/>
+    </linearGradient>
+    <clipPath id="lp"><rect x="20" y="52" width="540" height="300" rx="26"/></clipPath>
+  </defs>
+
+  <!-- ═══ 0 · Ocean panel (MATLAB/Simulink) ═══ -->
+  <g class="st" style="--i:0">
+    <g clip-path="url(#lp)">
+      <rect x="20" y="52" width="540" height="300" fill="#d9ecea"/>            <!-- sky -->
+      <rect x="20" y="102" width="540" height="250" fill="url(#water)"/>       <!-- water -->
+      <path d="M20 320 q40 -12 80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 v40 h-560 z" fill="#c9b169"/>  <!-- seabed -->
+      <g stroke="#b7a058" stroke-width="2" fill="none" opacity=".7">
+        <path d="M60 334 q18 -6 36 0"/><path d="M150 340 q18 -6 36 0"/>
+        <path d="M255 336 q18 -6 36 0"/><path d="M430 338 q18 -6 36 0"/>
+      </g>
+      <!-- undulating surface line -->
+      <g class="surface">
+        <path d="M-80 102 q21 -9 42 0 t42 0 t42 0 t42 0 t42 0 t42 0 t42 0 t42 0 t42 0 t42 0 t42 0 t42 0 t42 0 t42 0 t42 0 t42 0 t42 0"
+              fill="none" stroke="#f0fbf8" stroke-width="3" opacity=".85"/>
+      </g>
+    </g>
+    <rect x="20" y="52" width="540" height="300" rx="26" fill="none" stroke="var(--matlab-stroke)" stroke-width="3"/>
+    <text x="290" y="36" text-anchor="middle" class="panel-title">MATLAB/Simulink</text>
+    <text x="290" y="392" text-anchor="middle" class="panel-sub">Control Design</text>
+  </g>
+
+  <!-- ═══ 1 · Incoming ocean waves ═══ -->
+  <g class="wg" style="--i:1" clip-path="url(#lp)">
+    <g stroke="#f4fbf9" stroke-width="4" fill="none" stroke-linecap="round">
+      <path class="wavefront" d="M56 84 q14 16 0 32"/>
+      <path class="wavefront" style="animation-delay:.8s" d="M80 80 q16 20 0 40"/>
+      <path class="wavefront" style="animation-delay:1.6s" d="M104 76 q18 24 0 48"/>
+    </g>
+    <line class="wavefront" x1="56" y1="140" x2="140" y2="140" stroke="#f4fbf9" stroke-width="3" marker-end="url(#ahw)"/>
+    <text x="42" y="168" class="lbl" fill="#f4fbf9" style="fill:#f4fbf9">Incoming</text>
+    <text x="42" y="186" class="lbl" style="fill:#f4fbf9">ocean waves</text>
+  </g>
+
+  <!-- gains wire lives here in the DOM (so it passes *behind* the buoy) but animates at step 13 -->
+  <g class="wg" style="--i:13" clip-path="url(#lp)">
+    <line class="wire" style="--i:13" x1="430" y1="284" x2="212" y2="284" stroke="#0e1a24" stroke-width="2.5" marker-end="url(#ah)"/>
+    <text class="wire-head" style="--i:13" x="352" y="276" font-size="12" font-weight="700" fill="#f4fbf9" >K*<tspan font-size="9" dy="2">P</tspan><tspan dy="-2">, K*</tspan><tspan font-size="9" dy="2">I</tspan></text>
+  </g>
+
+  <!-- ═══ 2 · Point-absorber buoy ═══ -->
+  <g class="st" style="--i:2">
+    <g clip-path="url(#lp)">
+      <!-- seabed foundation -->
+      <path d="M262 296 l96 0 18 -12 -96 0 z" fill="#e0d13c"/>
+      <rect x="262" y="296" width="96" height="42" fill="#c9ba22"/>
+      <path d="M358 296 l18 -12 0 42 -18 12 z" fill="#a89a18"/>
+      <!-- shaft -->
+      <rect x="306" y="150" width="9" height="150" fill="#2d2d2d"/>
+      <rect x="303" y="270" width="15" height="26" rx="3" fill="#cfd6d9"/>
+      <!-- float (bobs with the waves) -->
+      <g class="bob">
+        <path d="M258 108 l104 0 -12 20 -80 0 z" fill="#e0d13c" stroke="#b3a416" stroke-width="1.5"/>
+        <rect x="270" y="94" width="80" height="16" rx="3" fill="#cdbd25"/>
+        <rect x="296" y="66" width="28" height="30" fill="#d6c62e"/>
+        <ellipse cx="310" cy="66" rx="14" ry="5" fill="#efe27a"/>
+      </g>
+    </g>
+    <text x="310" y="372" text-anchor="middle" class="lbl">Point-absorber WEC buoy</text>
+  </g>
+
+  <!-- ═══ 3 · motion measurements out ═══ -->
+  <g style="--i:3">
+    <line class="wire" x1="370" y1="112" x2="548" y2="112" stroke="#f4fbf9" stroke-width="3" marker-end="url(#ahw)"/>
+    <text class="wire-head lbl" x="420" y="102" style="fill:#0e1a24">buoy motion: z(t), ż(t)</text>
+  </g>
+
+  <!-- ═══ 4 · real-time updates arrow → Python ═══ -->
+  <g class="st" style="--i:4">
+    <text x="622" y="30" text-anchor="middle" class="panel-sub">Real-time</text>
+    <text x="622" y="52" text-anchor="middle" class="panel-sub">updates</text>
+    <path d="M560 96 h84 v-12 l28 26 -28 26 v-12 h-84 z" fill="#cdeaa6" stroke="#8ab55a" stroke-width="2"/>
+    <text x="614" y="115" text-anchor="middle" class="sm" font-weight="700">z(t), ż(t), F*<tspan dy="3" font-size="10">PTO</tspan></text>
+    <g fill="#4a7c2f">
+      <circle class="dot dotR" cx="566" cy="93" r="3.5"/>
+      <circle class="dot dotR" cx="566" cy="93" r="3.5" style="animation-delay:.57s"/>
+      <circle class="dot dotR" cx="566" cy="93" r="3.5" style="animation-delay:1.14s"/>
+    </g>
+  </g>
+
+  <!-- ═══ 5 · Python panel ═══ -->
+  <g class="st" style="--i:5">
+    <rect x="686" y="52" width="494" height="300" rx="26" fill="var(--py-fill)" stroke="var(--py-stroke)" stroke-width="3"/>
+    <text x="933" y="36" text-anchor="middle" class="panel-title">Python</text>
+    <text x="933" y="392" text-anchor="middle" class="panel-sub">Neural Network Model</text>
+  </g>
+
+  <!-- ═══ 6 · time-frequency features ═══ -->
+  <g class="st" style="--i:6">
+    <rect x="706" y="120" width="78" height="58" rx="4" fill="#10214a"/>
+    <path d="M706 178 q14 -8 20 -26 q8 -26 19 -30 q11 4 19 30 q6 18 20 26 z" fill="url(#tf)"/>
+    <text x="745" y="196" text-anchor="middle" class="sm" font-weight="700">Time-Frequency</text>
+    <text x="745" y="211" text-anchor="middle" class="sm" font-weight="700">Features</text>
+    <line x1="788" y1="149" x2="818" y2="149" stroke="var(--arrow)" stroke-width="2" marker-end="url(#ah)"/>
+  </g>
+
+  <!-- ═══ 7 · build NN model ═══ -->
+  <g class="st" style="--i:7">
+    <text x="880" y="112" text-anchor="middle" class="lbl">Build NN model</text>
+    <g stroke="#5a6b7c" stroke-width="1">
+      <line x1="832" y1="132" x2="866" y2="126"/><line x1="832" y1="132" x2="866" y2="146"/><line x1="832" y1="132" x2="866" y2="166"/>
+      <line x1="832" y1="152" x2="866" y2="126"/><line x1="832" y1="152" x2="866" y2="146"/><line x1="832" y1="152" x2="866" y2="166"/>
+      <line x1="832" y1="172" x2="866" y2="126"/><line x1="832" y1="172" x2="866" y2="146"/><line x1="832" y1="172" x2="866" y2="166"/>
+      <line x1="866" y1="126" x2="900" y2="136"/><line x1="866" y1="126" x2="900" y2="158"/>
+      <line x1="866" y1="146" x2="900" y2="136"/><line x1="866" y1="146" x2="900" y2="158"/>
+      <line x1="866" y1="166" x2="900" y2="136"/><line x1="866" y1="166" x2="900" y2="158"/>
+      <line x1="900" y1="136" x2="928" y2="147"/><line x1="900" y1="158" x2="928" y2="147"/>
+    </g>
+    <g fill="#33475c">
+      <circle cx="832" cy="132" r="5"/><circle cx="832" cy="152" r="5"/><circle cx="832" cy="172" r="5"/>
+      <circle cx="866" cy="126" r="5"/><circle cx="866" cy="146" r="5"/><circle cx="866" cy="166" r="5"/>
+      <circle cx="900" cy="136" r="5"/><circle cx="900" cy="158" r="5"/>
+      <circle cx="928" cy="147" r="5"/>
+    </g>
+    <line x1="936" y1="147" x2="972" y2="147" stroke="var(--arrow)" stroke-width="2" marker-end="url(#ah)"/>
+  </g>
+
+  <!-- ═══ 8 · input features / targets ═══ -->
+  <g class="st" style="--i:8">
+    <text x="1027" y="92" text-anchor="middle" class="lbl">Input</text>
+    <text x="1027" y="110" text-anchor="middle" class="lbl">Features</text>
+    <circle cx="1003" cy="140" r="15" fill="#fff" stroke="#5b4a8a" stroke-width="2"/><text x="1003" y="145" text-anchor="middle" class="sm" font-weight="700">z</text>
+    <circle cx="1048" cy="140" r="15" fill="#fff" stroke="#5b4a8a" stroke-width="2"/><text x="1048" y="145" text-anchor="middle" class="sm" font-weight="700">ż</text>
+    <circle cx="1025" cy="182" r="15" fill="#fff" stroke="#5b4a8a" stroke-width="2"/><text x="1025" y="186" text-anchor="middle" class="sm" font-weight="700">F<tspan font-size="8" dy="2">PTO</tspan></text>
+    <text x="1128" y="92" text-anchor="middle" class="lbl">Target</text>
+    <text x="1128" y="110" text-anchor="middle" class="lbl">Variables</text>
+    <circle cx="1128" cy="140" r="15" fill="#fff" stroke="#5b4a8a" stroke-width="2"/><text x="1128" y="145" text-anchor="middle" class="sm" font-weight="700">T<tspan font-size="8" dy="2">p</tspan></text>
+  </g>
+
+  <!-- ═══ 9 · model evaluation ═══ -->
+  <g class="wg" style="--i:9">
+    <path class="wire" style="--i:9" d="M1108 165 v128 h-38" fill="none" stroke="var(--arrow)" stroke-width="4" marker-end="url(#ah)"/>
+    <g class="wire-head" style="--i:9">
+      <rect x="968" y="278" width="96" height="32" rx="4" fill="#f2f2ee" stroke="var(--arrow)" stroke-width="2"/>
+      <text x="1016" y="291" text-anchor="middle" class="sm" font-weight="700">Model</text>
+      <text x="1016" y="305" text-anchor="middle" class="sm" font-weight="700">Evaluation</text>
+    </g>
+  </g>
+
+  <!-- ═══ 10 · retrain loop ═══ -->
+  <g class="wg" style="--i:10">
+    <path class="wire" style="--i:10" d="M964 294 h-84 v-104" fill="none" stroke="var(--arrow)" stroke-width="4" marker-end="url(#ah)"/>
+    <g class="wire-head" style="--i:10">
+      <g class="spin" style="--i:10">
+        <path d="M846 254 a16 16 0 1 1 -14 8" fill="none" stroke="#2a7ab5" stroke-width="4" stroke-linecap="round"/>
+        <path d="M826 258 l6 8 4 -10 z" fill="#2a7ab5"/>
+      </g>
+      <text x="846" y="300" text-anchor="middle" class="sm">Repeat with new</text>
+      <text x="846" y="314" text-anchor="middle" class="sm">hyperparameters</text>
+    </g>
+  </g>
+
+  <!-- ═══ 11 · T*p back to MATLAB ═══ -->
+  <g class="st" style="--i:11">
+    <path d="M686 268 h-84 v-12 l-28 26 28 26 v-12 h84 z" fill="#bcdcf5" stroke="#6d97bd" stroke-width="2"/>
+    <text x="634" y="288" text-anchor="middle" class="lbl">T*<tspan class="sm" dy="3">p</tspan></text>
+    <g fill="#2a6aa0">
+      <circle class="dot dotL" cx="680" cy="265" r="3.5"/>
+      <circle class="dot dotL" cx="680" cy="265" r="3.5" style="animation-delay:.57s"/>
+      <circle class="dot dotL" cx="680" cy="265" r="3.5" style="animation-delay:1.14s"/>
+    </g>
+  </g>
+
+  <!-- ═══ 12 · PID ═══ -->
+  <g class="st" style="--i:12">
+    <rect x="430" y="260" width="100" height="48" rx="8" fill="var(--box-blue)" stroke="var(--box-blue-stroke)" stroke-width="2"/>
+    <text x="480" y="290" text-anchor="middle" class="lbl">PID</text>
+  </g>
+
+  <!-- (step 13, the K*P/K*I gains wire, is drawn earlier in the DOM so it runs behind the buoy) -->
+
+  <!-- ═══ 14 · MPC / LMI controller ═══ -->
+  <g class="st" style="--i:14">
+    <rect x="64" y="234" width="148" height="100" rx="16" fill="#bfe3a8" stroke="#6aa06a" stroke-width="3"/>
+    <rect x="96" y="246" width="84" height="30" rx="6" fill="#fff" stroke="var(--arrow)" stroke-width="2"/>
+    <text x="138" y="266" text-anchor="middle" class="lbl">MPC</text>
+    <rect x="96" y="292" width="84" height="30" rx="6" fill="#fff" stroke="var(--arrow)" stroke-width="2"/>
+    <text x="138" y="312" text-anchor="middle" class="lbl">LMI</text>
+    <path d="M92 264 q-12 20 0 42" fill="none" stroke="var(--arrow)" stroke-width="1.6" marker-end="url(#ah)"/>
+    <path d="M184 304 q12 -20 0 -42" fill="none" stroke="var(--arrow)" stroke-width="1.6" marker-end="url(#ah)"/>
+  </g>
+
+  <!-- ═══ 15 · F*PTO drives the buoy's PTO ═══ -->
+  <g class="wg" style="--i:15">
+    <path class="wire" style="--i:15" d="M138 230 v-88 q0 -22 30 -24 l84 -1" fill="none" stroke="#0e1a24" stroke-width="2.5" marker-end="url(#ah)"/>
+    <text class="wire-head lbl" style="--i:15" x="160" y="146" fill="#f4fbf9">F*<tspan class="sm" dy="3">PTO</tspan><tspan dy="-3"> control force</tspan></text>
+  </g>
+</svg>
+</div>
+
+<div class="controls">
+  <button id="replay">↻ Replay animation</button>
+  <label><input type="checkbox" id="loop"> Loop</label>
+</div>
+
+<script>
+  const loopCb = document.getElementById('loop');
+  const STEPS  = 16, STEP_S = 0.55, TAIL_S = 1.6;
+  let timer = null;
+
+  function replay(){
+    const svg = document.getElementById('diagram');
+    const clone = svg.cloneNode(true);
+    svg.replaceWith(clone);
+    scheduleLoop();
+  }
+  function scheduleLoop(){
+    clearTimeout(timer);
+    if (loopCb.checked){
+      timer = setTimeout(replay, (STEPS*STEP_S + TAIL_S)*1000);
+    }
+  }
+  document.getElementById('replay').addEventListener('click', replay);
+  loopCb.addEventListener('change', scheduleLoop);
+  scheduleLoop();
+</script>
+</body>
+</html>
