@@ -32,6 +32,34 @@
   background: #fbfbf9;
 }
 
+.major-events {
+  margin: 1.5em 0 2.5em;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: grid;
+    grid-template-columns: 5.5em minmax(0, 1fr);
+    gap: 1em;
+    margin: 0;
+    padding: 0.65em 0;
+    border-bottom: 1px solid var(--theme-border, $border-color);
+  }
+
+  time {
+    color: var(--theme-link, $link-color);
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  @media (max-width: $small) {
+    li {
+      grid-template-columns: 1fr;
+      gap: 0.15em;
+    }
+  }
+}
+
 .page {
   @include breakpoint($large) {
     @include span(10 of 12 last);
