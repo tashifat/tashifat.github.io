@@ -25,6 +25,19 @@ Besides doing research, I like playing cricket, badminton, riding a bicycle, and
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&duration=3500&pause=500&color=C2415D&center=true&vCenter=true&width=550&lines=Open+to+full-time+roles+starting+Fall+2026!" alt="Typing focus areas" />
 </p>
 
+
+<div class="wec-pipeline-animation-wrap">
+  <iframe
+    class="wec-pipeline-animation"
+    src="/files/wec_pipeline_animation_v2_1.html"
+    title="Animated wave energy converter data pipeline"
+    loading="lazy"
+    scrolling="no"
+    sandbox="allow-scripts">
+  </iframe>
+</div>
+
+
 <h2>Major Events</h2>
 
 <ul class="major-events">
@@ -68,16 +81,7 @@ Technical Skills
 
 -->
 
-<div class="wec-pipeline-animation-wrap">
-  <iframe
-    class="wec-pipeline-animation"
-    src="/files/wec_pipeline_animation_v2_1.html"
-    title="Animated wave energy converter data pipeline"
-    loading="lazy"
-    scrolling="no"
-    sandbox="allow-scripts">
-  </iframe>
-</div>
+
 
 <h2>Society Affiliation</h2>
 
