@@ -41,13 +41,13 @@ Besides doing research, I like playing cricket, badminton, riding a bicycle, and
 <h2>Major Events</h2>
 
 <ul class="major-events">
-  <li><time datetime="2026">07/2026</time><span>Selected for the DOE Marine Energy Fellowship</span></li>
-  <li><time datetime="2026-05">06/2026</time><span>Started internship as Grid Intelligence Intern at Eaton Research Lab</span></li>
-  <li><time datetime="2025-08">08/2025</time><span>Received the Best Poster Presentation award at UMERC 2025</span></li>
-  <li><time datetime="2025-06">06/2025</time><span>Started internship as Electrical Engineer at Sylvan Systems</span></li>
-  <li><time datetime="2025-03">03/2025</time><span>Received the ARPA-e Student Award at the ARPA-e Energy Innovation Summit</span></li>
+  <li><time datetime="2026">07/2026</time><span>Selected for the 2026 DOE Marine Energy Fellowship by ORISE</span></li>
+  <li><time datetime="2026-05">06/2026</time><span>Started internship as Grid Intelligence Intern at Eaton Research Lab, Golden, CO.</span></li>
+  <li><time datetime="2025-08">08/2025</time><span>Received the Best Poster Presentation award at UMERC 2025, Corvallis, OR. </span></li>
+  <li><time datetime="2025-06">06/2025</time><span>Started internship as Electrical Engineer at Sylvan Systems, Eugene, OR.</span></li>
+  <li><time datetime="2025-03">03/2025</time><span>Received the ARPA-e Student Award at the ARPA-e Energy Innovation Summit, Washington D.C. </span></li>
   <li><time datetime="2023-06">06/2023</time><span>Became Chair and Treasurer of the IEEE PES/PELS Student Chapter at Oregon State University</span></li>
-  <li><time datetime="2021-09">09/2021</time><span>Started PhD in Electrical and Computer Engineering at Oregon State University</span></li>
+  <li><time datetime="2021-09">09/2021</time><span>Started PhD in Electrical and Computer Engineering at Oregon State University, Corvallis, OR.</span></li>
   <li><time datetime="2020-08">08/2020</time><span>Completed MS in Mechanical and Electrical Convergence Engineering at Kumoh National Institute of Technology</span></li>
   <!-- <li><time datetime="2018-09">09/2018</time><span>Started MS and Graduate Research Assistantship at Kumoh National Institute of Technology</span></li> -->
   <li><time datetime="2016-04">04/2016</time><span>Completed BS in Electrical and Electronic Engineering at East West University</span></li>
